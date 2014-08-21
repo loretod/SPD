@@ -1,0 +1,35 @@
+h1
+{font-family: sans-serif; font-size: 28pt; em;font-weight:bold;color: red; background-color: #99FFCC}
+
+h2
+{font-family:sans-serif;font-size:20pt;color: #CC99FF; background-color: #FFFFCC}
+
+p
+{
+	font-family: arial; padding-right: 200pt; line-height: 2em; font-style: oblique; width: 700px
+}
+
+p:first-letter
+{
+	font-size: 150%;color: #FF5050
+}
+
+#overview
+{
+	background color: #FFFFCC
+}
+
+body 
+{
+	padding-left: 100pt; padding-right: 100pt;
+}
+header
+{
+	background-color: #A3C2C2
+
+}
+
+a 
+{
+	text-decoration: none
+}
