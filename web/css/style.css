@@ -33,3 +33,17 @@ a
 {
 	text-decoration: none
 }
+
+.column1of2, .column2of2
+{
+	width: 460px;
+	float: left;
+	margin: 10px
+}
+
+.column1of5, .column2of5, .column3of5, .column4of5, .column5of5
+{
+	width: 140px;
+	float: left;
+	margin: 10px
+}
