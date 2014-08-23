@@ -1,49 +1,157 @@
 h1
-{font-family: sans-serif; font-size: 28pt; em;font-weight:bold;color: red; background-color: #99FFCC}
+{
+	font-family: sans-serif; 
+	font-size: 28pt;
+	font-weight:bold;
+	color: white; 
+	background-color: #000000;
+    width: 1000px;
+}
 
 h2
-{font-family:sans-serif;font-size:20pt;color: #CC99FF; background-color: #FFFFCC}
+{
+	font-family: sans-serif;
+	font-size:20pt;
+    width: 1000px;
+}
+
+h3
+{
+	font-family: sans-serif;
+	font-size: 14pt;
+    width: 1000px;
+}
 
 p
 {
-	font-family: arial; padding-right: 200pt; line-height: 2em; font-style: oblique; width: 700px
+	font-family: arial; 
+	line-height: 1.2em; 
+	font-style: oblique;
+    max-width: 1000px;
 }
 
-p:first-letter
+li 
 {
-	font-size: 150%;color: #FF5050
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.nav 
+{
+    padding-left: 2;
+    margin-left: 2;
+    font-family: sans-serif;
+    font-size: 90%;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin:    0 0;
+    -ms-transform-origin:     0 0;
+    -o-transform-origin:      0 0;
+    transform: rotate(-90deg);
+}
+
+#nav
+{
+    position: fixed;
+    left: 0px;
+    top: 700px;
+}
+
+div.nav a
+{
+    color: white;
+    background-color: black;
+    display: block;
+    border-left: 5px solid #1B75BB;   
+    margin: 3px;
+    float: left;
 }
 
 #overview
 {
-	background color: #FFFFCC
+    font-style: bold;
+    color: #063C6E;
+    clear: both;
 }
 
-body 
+#smd
 {
-	padding-left: 100pt; padding-right: 100pt;
-}
-header
-{
-	background-color: #A3C2C2
-
+    background-color: #009344;
+    color: white;
 }
 
-a 
+#sbmd
 {
-	text-decoration: none
+    background-color: #F7931D;
+    color: white;
+}
+
+#sdd
+{
+    background-color: #1B75BB;
+    color: white;
+}
+
+.intro
+{
+    float: left;
+    margin: 10px;
+    width: 460px;
 }
 
 .column1of2, .column2of2
 {
 	width: 460px;
 	float: left;
-	margin: 10px
+	margin: 10px;
+    background-color: #FBAF3F;
+    height: 200px;
+    padding: 10px;
 }
 
-.column1of5, .column2of5, .column3of5, .column4of5, .column5of5
+.column1of6, .column2of6, .column3of6, .column4of6, .column5of6, .column6of6
 {
 	width: 140px;
 	float: left;
-	margin: 10px
+	margin: 10px;
+    background-color: #27A9E1;
+    height: 200px;
+    padding: 4px;
+}
+
+.column1of3, .column2of3, .column3of3
+{
+	float: left;
+	width: 300px;
+	margin: 10px;
+    background-color: #8CC63E;
+    height: 200px;
+    padding: 5px;
+}
+
+section
+{
+	clear: both;
+}
+
+body 
+{
+    padding-left: 50pt;
+    margin: 0 auto; 
+    width: 940;
+}
+
+a 
+{
+    text-decoration: none;
+    font-style: italic;
+    font-size: 110%;
+}
+
+footer
+{
+   color: white;
+   background-color: black;
+   font-style: italic;
+   clear: both;
+   width: 1000px;
 }
